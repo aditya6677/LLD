@@ -1,8 +1,11 @@
 package Design.Singleton;
 
+import java.util.Scanner;
+
 public class Client {
     public static void main(String[] args) {
-        Singleton singleton = Singleton.getInstance();
+        Scanner scanner = new Scanner(System.in);
+        Singleton singleton = Singleton.getInstance(scanner.next());
         singleton.hello();
     }
 }

@@ -2,19 +2,25 @@ package Design.Singleton;
 
 public class Singleton {
 
-    private int count = 0;
+    private final String name;
 
-    private static Singleton instance = null;
+    private static volatile Singleton instance = null;
 
-    private Singleton(){}
-
-    void hello(){
-        System.out.println("Hello World");
+    private Singleton(String name){
+        this.name = name;
     }
 
-    synchronized public static Singleton getInstance(){
+    void hello(){
+        System.out.println(name);
+    }
+
+    public static Singleton getInstance(String name){
         if(instance == null){
-            instance = new Singleton();
+            synchronized(Singleton.class){
+                if(instance == null){
+                    instance = new Singleton(name);
+                }
+            }
         }
         return instance;
     }
