@@ -1,5 +1,7 @@
 package Design.Factory.PracticalFactory;
 
+
+//User Factory
 public class UserFactory {
 
     public static User getUser(String type){
