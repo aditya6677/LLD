@@ -1,5 +1,7 @@
 package Design.Singleton;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Client {
@@ -7,5 +9,6 @@ public class Client {
         Scanner scanner = new Scanner(System.in);
         Singleton singleton = Singleton.getInstance(scanner.next());
         singleton.hello();
+
     }
 }
