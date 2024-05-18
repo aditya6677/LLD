@@ -2,13 +2,15 @@ package Design.Prototype;
 
 public class Client {
     public static void main(String[] args) {
-        User user = new User(); //Object of student will be created in memory
-        User newUser = user.copy();
+        User user = new User();
+        User student = new Student("Java");
 
-        User newUser2 = new Student();
-        newUser2.setName("Aditya");
+        Registry registry = new Registry();
+        registry.registerUser("K1", user);
+        registry.registerUser("K2", student);
 
-        User newUser3 = newUser2.copy();
-
+        User javaStudent = registry.getUser("K2").copy();
+        javaStudent.setName("Aditya");
+        System.out.println(javaStudent);
     }
 }

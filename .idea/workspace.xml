@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="003acc57-59e0-4d74-90b1-0aa0c1d57ce1" name="Changes" comment="Design">
-      <change afterPath="$PROJECT_DIR$/Design/Prototype/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design/Prototype/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design/Prototype/User.java" afterDir="false" />
+    <list default="true" id="003acc57-59e0-4d74-90b1-0aa0c1d57ce1" name="Changes" comment="Prototype">
+      <change afterPath="$PROJECT_DIR$/Design/Prototype/Registry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Design/Builder/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Design/Builder/StudentBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Design/Builder/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Design/Builder/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Design/Builder/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Design/Builder/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Design/Prototype/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Design/Prototype/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Design/Prototype/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Design/Prototype/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +160,7 @@
       <workItem from="1714992616604" duration="98000" />
       <workItem from="1715159196582" duration="241000" />
       <workItem from="1715238504539" duration="390000" />
-      <workItem from="1715526954410" duration="3375000" />
+      <workItem from="1715526954410" duration="4801000" />
     </task>
     <task id="LOCAL-00001" summary="Design">
       <option name="closed" value="true" />
@@ -229,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714332419861</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Prototype">
+      <option name="closed" value="true" />
+      <created>1715874915527</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715874915527</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +242,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Design" />
-    <option name="LAST_COMMIT_MESSAGE" value="Design" />
+    <MESSAGE value="Prototype" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prototype" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Design/Prototype/Client.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

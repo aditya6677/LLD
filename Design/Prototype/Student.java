@@ -18,8 +18,11 @@ public class Student extends User{
 
     public Student(){}
 
+    public Student(String course){
+        this.course = course;
+    }
+
     public Student copy(){
-        this.course = "Something";
         return new Student(this);
     }
 }
