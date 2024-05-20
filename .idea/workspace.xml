@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="003acc57-59e0-4d74-90b1-0aa0c1d57ce1" name="Changes" comment="Prototype">
-      <change afterPath="$PROJECT_DIR$/Design/Prototype/Registry.java" afterDir="false" />
+    <list default="true" id="003acc57-59e0-4d74-90b1-0aa0c1d57ce1" name="Changes" comment="Prototype Design">
+      <change afterPath="$PROJECT_DIR$/Design/Factory/AbstractFactory/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design/Factory/FactoryMethod/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Design/Prototype/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Design/Prototype/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Design/Prototype/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Design/Prototype/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,25 +51,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Client.executor": "Run",
-    "Application.Design.Builder.Client.executor": "Run",
-    "Application.Design.Factory.PracticalFactory.Client.executor": "Run",
-    "Application.Design.Prototype.Client.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/shinchan/Design",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Design.Builder.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Design.Factory.PracticalFactory.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Design.Prototype.Client.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/shinchan/Design&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Design.Prototype.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Design.Singleton.Client" />
@@ -160,7 +160,9 @@
       <workItem from="1714992616604" duration="98000" />
       <workItem from="1715159196582" duration="241000" />
       <workItem from="1715238504539" duration="390000" />
-      <workItem from="1715526954410" duration="4801000" />
+      <workItem from="1715526954410" duration="4971000" />
+      <workItem from="1716016696939" duration="550000" />
+      <workItem from="1716192478309" duration="733000" />
     </task>
     <task id="LOCAL-00001" summary="Design">
       <option name="closed" value="true" />
@@ -234,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715874915527</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Prototype Design">
+      <option name="closed" value="true" />
+      <created>1716002823033</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1716002823033</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,17 +253,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Design" />
     <MESSAGE value="Prototype" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prototype" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Design/Prototype/Client.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Prototype Design" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prototype Design" />
   </component>
 </project>
