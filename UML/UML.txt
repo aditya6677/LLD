@@ -1,0 +1,2 @@
+Structural -> Class Diagram, Object Diagram, Package, Component
+Behavioural -> Use Case, Sequence, Activity Diagram
