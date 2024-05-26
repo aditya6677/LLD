@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="003acc57-59e0-4d74-90b1-0aa0c1d57ce1" name="Changes" comment="Strategy Design Fix">
-      <change afterPath="$PROJECT_DIR$/UML/UML.txt" afterDir="false" />
+    <list default="true" id="003acc57-59e0-4d74-90b1-0aa0c1d57ce1" name="Changes" comment="UML Diag">
+      <change afterPath="$PROJECT_DIR$/Designs/Pen/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Strategy/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/Strategy/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/Inheritance/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Inheritance/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/Inheritance/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Inheritance/B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Abstract/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Abstract/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Abstract/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Abstract/B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Abstract/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Abstract/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +62,7 @@
     "Application.Design.Prototype.Client.executor": "Debug",
     "Application.Design.Strategy.Client.executor": "Run",
     "Application.DesignPattern.Strategy.Client.executor": "Run",
+    "Application.OOP.Abstract.Client.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -75,20 +76,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DesignPattern.Strategy.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPattern.Adapter.Client" />
-      <module name="Design" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DesignPattern.Adapter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.OOP.Abstract.Client">
     <configuration name="DesignPattern.Builder.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DesignPattern.Builder.Client" />
       <module name="Design" />
@@ -141,10 +129,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OOP.Abstract.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.Abstract.Client" />
+      <module name="Design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOP.Abstract.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OOP.Abstract.Client" />
         <item itemvalue="Application.DesignPattern.Strategy.Client" />
-        <item itemvalue="Application.Design.Adapter.Client" />
         <item itemvalue="Application.DesignPattern.Prototype.Client" />
         <item itemvalue="Application.DesignPattern.Builder.Client" />
         <item itemvalue="Application.DesignPattern.Factory.PracticalFactory.Client" />
@@ -184,7 +185,8 @@
       <workItem from="1716192478309" duration="4021000" />
       <workItem from="1716286367457" duration="1177000" />
       <workItem from="1716401772058" duration="132000" />
-      <workItem from="1716483813212" duration="2585000" />
+      <workItem from="1716483813212" duration="3425000" />
+      <workItem from="1716699669552" duration="816000" />
     </task>
     <task id="LOCAL-00001" summary="Design">
       <option name="closed" value="true" />
@@ -290,7 +292,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716483942054</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="UML Diag">
+      <option name="closed" value="true" />
+      <created>1716625683597</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1716625683597</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,6 +313,7 @@
     <MESSAGE value="Adapter Design" />
     <MESSAGE value="Strategy Design" />
     <MESSAGE value="Strategy Design Fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Strategy Design Fix" />
+    <MESSAGE value="UML Diag" />
+    <option name="LAST_COMMIT_MESSAGE" value="UML Diag" />
   </component>
 </project>
