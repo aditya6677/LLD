@@ -6,6 +6,7 @@ public class Singleton implements Serializable {
 
     private final String name;
 
+    //why we cant initialize here, because if we need some params while creating object in constructor at run time, we cant provide
     private static volatile Singleton instance = null;
 
     private Singleton(String name){
