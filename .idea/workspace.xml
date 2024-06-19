@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="003acc57-59e0-4d74-90b1-0aa0c1d57ce1" name="Changes" comment="Improved Factory">
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Factory/AbstractFactory/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Factory/AbstractFactory/AbstractFactoryProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Factory/AbstractFactory/Engineer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Factory/AbstractFactory/NonTraineeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Factory/AbstractFactory/Profession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Factory/AbstractFactory/ProfessionEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Factory/AbstractFactory/TraineeEngineer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Factory/AbstractFactory/TraineeFactory.java" afterDir="false" />
+    <list default="true" id="003acc57-59e0-4d74-90b1-0aa0c1d57ce1" name="Changes" comment="Improved Abstract Factory">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Factory/AbstractFactory/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/Factory/AbstractFactory/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/Singleton/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/Singleton/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/Singleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/Singleton/Singleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +62,7 @@
     "Application.Design.Strategy.Client.executor": "Run",
     "Application.DesignPattern.Factory.AbstractFactory.Client.executor": "Run",
     "Application.DesignPattern.Factory.FactoryMethod.Client.executor": "Run",
+    "Application.DesignPattern.Singleton.Client.executor": "Run",
     "Application.DesignPattern.Strategy.Client.executor": "Run",
     "Application.Functional.Client.executor": "Run",
     "Application.OOP.Abstract.Client.executor": "Run",
@@ -85,7 +79,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DesignPattern.Factory.AbstractFactory.Client">
+  <component name="RunManager" selected="Application.DesignPattern.Singleton.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Multithreading.Client" />
       <module name="Design" />
@@ -125,6 +119,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DesignPattern.Singleton.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPattern.Singleton.Client" />
+      <module name="Design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DesignPattern.Singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Functional.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Functional.Client" />
       <module name="Design" />
@@ -138,26 +145,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOP.Abstract.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.Abstract.Client" />
-      <module name="Design" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OOP.Abstract.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DesignPattern.Singleton.Client" />
         <item itemvalue="Application.DesignPattern.Factory.AbstractFactory.Client" />
         <item itemvalue="Application.DesignPattern.Factory.FactoryMethod.Client" />
         <item itemvalue="Application.Functional.Client" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.OOP.Abstract.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +194,7 @@
       <workItem from="1716950543572" duration="2181000" />
       <workItem from="1717124212968" duration="1804000" />
       <workItem from="1717513063471" duration="12000" />
-      <workItem from="1718649337268" duration="1660000" />
+      <workItem from="1718649337268" duration="3791000" />
     </task>
     <task id="LOCAL-00001" summary="Design">
       <option name="closed" value="true" />
@@ -338,7 +332,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718649779373</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Improved Abstract Factory">
+      <option name="closed" value="true" />
+      <created>1718653232994</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1718653232994</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,6 +357,7 @@
     <MESSAGE value="Abstract OOP" />
     <MESSAGE value="Multithreading" />
     <MESSAGE value="Improved Factory" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved Factory" />
+    <MESSAGE value="Improved Abstract Factory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved Abstract Factory" />
   </component>
 </project>

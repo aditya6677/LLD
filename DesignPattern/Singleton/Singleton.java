@@ -1,6 +1,8 @@
 package DesignPattern.Singleton;
 
-public class Singleton {
+import java.io.Serializable;
+
+public class Singleton implements Serializable {
 
     private final String name;
 
