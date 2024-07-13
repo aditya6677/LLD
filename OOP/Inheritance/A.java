@@ -7,4 +7,8 @@ public class A {
     public A(){
 
     }
+
+    public void display(){
+        System.out.println("Name: " + name);
+    }
 }

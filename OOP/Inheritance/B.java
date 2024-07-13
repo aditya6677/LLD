@@ -5,4 +5,10 @@ public class B extends A{
     String batch;
 
     public B(){}
+
+    @Override
+    public void display(){
+        System.out.println("Runtime Exception");
+        throw new RuntimeException();
+    }
 }
