@@ -19,5 +19,8 @@ public class Client {
         System.out.println(singleton.hashCode());
         System.out.println(singleton1.hashCode());
 
+        EnumSingleton enumSingleton = EnumSingleton.INSTANCE;
+        enumSingleton.doSomething();
+
     }
 }
